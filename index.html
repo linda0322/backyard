@@ -2,19 +2,24 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>My Google Slides</title>
+  <title>Centered Slides</title>
   <style>
     body {
-      display: flex;
-      justify-content: center;
-      align-items: center; 
-      height: 100vh; 
       margin: 0;
+      padding: 40px 0;
       background-color: #f0f0f0;
+    }
+
+    .container {
+      max-width: 800px;
+      margin: 0 auto; /* 水平置中 */
+      text-align: center;
     }
   </style>
 </head>
 <body>
+  <div class="container">
     <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vSvJMPCDwwTlmQrtNdhWIbj1fErg6Jd9UMw26tfDbM1HOqQWOSIyFYHStdolHfSKF2xArwxQRuP93lr/pubembed?start=false&loop=false&delayms=3000" frameborder="0" width="480" height="329" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+</div>
 </body>
 </html>
